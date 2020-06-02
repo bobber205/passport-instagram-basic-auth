@@ -1,0 +1,52 @@
+{
+  "name": "passport-instagram-basic-auth",
+  "version": "1.0.0",
+  "description": "Instagram Basic Auth authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "facebook",
+    "instagram",
+    "basic auth",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Alex Wait",
+    "email": "bobber205@gmail.com",
+    "url": "https://www.linkedin.com/in/alexwait/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bobber205/passport-instagram-basic-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobber205/passport-instagram-basic-auth/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x",
+    "querystring": "^0.2.0",
+    "growl": "^1.10"
+  },
+  "devDependencies": {
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x",
+    "make-node": "0.4.6",
+    "mocha": "2.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
